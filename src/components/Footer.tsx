@@ -3,7 +3,7 @@ import logo from "../assets/logo.svg";
 export const Footer = () => {
   return (
     <footer className="bg-primary mt-auto">
-      <div className="max-w-screen-xl mx-auto px-10 py-10 xl:px-20">
+      <div className="max-w-screen-2xl mx-auto px-10 py-10 xl:px-20">
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
           <div className="mb-[60px] lg:mb-0 md:col-span-2">
             <div className="max-w-[413px]">

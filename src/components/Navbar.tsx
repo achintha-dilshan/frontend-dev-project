@@ -26,7 +26,7 @@ export const Navbar = () => {
   return (
     <>
       <nav ref={navbarRef} className="bg-primary w-full">
-        <div className="max-w-screen-xl py-[26px] mx-auto xl:px-20 md:px-10 px-5">
+        <div className="max-w-screen-2xl py-[26px] mx-auto xl:px-20 md:px-10 px-5">
           <div className="w-full flex items-center gap-4 justify-between">
             <div className="shrink-0">
               <a href="/">
