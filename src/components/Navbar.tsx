@@ -78,7 +78,7 @@ export const Navbar = () => {
 
       {/* mobile navigation */}
       <aside
-        className={`bg-white py-4 px-5 fixed h-screen md:hidden w-full top-0 transform transition-transform duration-300 ease-in ${
+        className={`bg-white z-10 py-4 px-5 fixed h-screen md:hidden w-full top-0 transform transition-transform duration-300 ease-in ${
           showMobileMenu ? "translate-x-0" : "translate-x-full"
         }`}
       >
