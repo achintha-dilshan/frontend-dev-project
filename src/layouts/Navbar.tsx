@@ -25,14 +25,11 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav
-        ref={navbarRef}
-        className="bg-primary grid place-items-center h-[77px] w-full"
-      >
-        <div className="max-w-screen-xl px-8 w-full flex items-center gap-4 justify-between">
+      <nav ref={navbarRef} className="bg-primary w-full">
+        <div className="max-w-screen-xl py-[26px] mx-auto xl:px-20 md:px-10 px-5 w-full flex items-center gap-4 justify-between">
           <div className="shrink-0">
             <a href="/">
-              <img src={logo} alt="logo" className="h-9 -mt-2.5" />
+              <img src={logo} alt="logo" className="h-9 -mt-[11px]" />
             </a>
           </div>
 
@@ -81,23 +78,23 @@ export const Navbar = () => {
 
       {/* mobile navigation */}
       <aside
-        className={`bg-white p-5 fixed h-screen md:hidden w-full top-0 transform transition-transform duration-300 ease-in ${
+        className={`bg-white py-4 px-5 fixed h-screen md:hidden w-full top-0 transform transition-transform duration-300 ease-in ${
           showMobileMenu ? "translate-x-0" : "translate-x-full"
         }`}
       >
         {/* close button */}
-        <div className="absolute top-5 right-5">
+        <div className="absolute top-4 right-5">
           <button type="button" onClick={() => setShowMobileMenu(false)}>
             <img src={close} role="presentation" />
           </button>
         </div>
 
         {/* nav links */}
-        <ul className="space-y-9">
+        <ul className="space-y-8">
           <li>
             <a
               href="/"
-              className="uppercase text-black py-1 text-sm font-medium tracking-wider"
+              className="uppercase text-black py-1.5 block text-sm font-medium tracking-wider"
             >
               Home
             </a>
@@ -105,7 +102,7 @@ export const Navbar = () => {
           <li>
             <a
               href="javascript:void(0)"
-              className="uppercase text-black py-1 text-sm font-medium tracking-wider"
+              className="uppercase text-black py-1.5 block text-sm font-medium tracking-wider"
             >
               Services
             </a>
@@ -113,7 +110,7 @@ export const Navbar = () => {
           <li>
             <a
               href="javascript:void(0)"
-              className="uppercase text-black py-1 text-sm font-medium tracking-wider"
+              className="uppercase text-black py-1.5 block text-sm font-medium tracking-wider"
             >
               About Us
             </a>
@@ -121,7 +118,7 @@ export const Navbar = () => {
           <li>
             <a
               href="javascript:void(0)"
-              className="uppercase text-black py-1 text-sm font-medium tracking-wider"
+              className="uppercase text-black py-1.5 block text-sm font-medium tracking-wider"
             >
               Contact Us
             </a>
@@ -129,7 +126,7 @@ export const Navbar = () => {
           <li>
             <a
               href="javascript:void(0)"
-              className="uppercase text-black py-1 text-sm font-medium tracking-wider"
+              className="uppercase text-black py-1.5 block text-sm font-medium tracking-wider"
             >
               Career
             </a>
