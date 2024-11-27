@@ -26,52 +26,52 @@ export const Navbar = () => {
   return (
     <>
       <nav ref={navbarRef} className="bg-primary w-full">
-        <div className="max-w-screen-xl py-[26px] mx-auto xl:px-20 md:px-10 px-5 w-full flex items-center gap-4 justify-between">
-          <div className="shrink-0">
-            <a href="/">
-              <img src={logo} alt="logo" className="h-9 -mt-[11px]" />
-            </a>
-          </div>
-
-          <ul className="items-center gap-7 hidden md:flex">
-            <li>
-              <a
-                href="javascript:void(0)"
-                className="uppercase text-white text-sm font-medium tracking-wider"
-              >
-                Services
+        <div className="max-w-screen-xl py-[26px] mx-auto xl:px-20 md:px-10 px-5">
+          <div className="w-full flex items-center gap-4 justify-between">
+            <div className="shrink-0">
+              <a href="/">
+                <img src={logo} alt="logo" className="h-9 -mt-[11px]" />
               </a>
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                className="uppercase text-white text-sm font-medium tracking-wider"
-              >
-                About Us
-              </a>
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                className="uppercase text-white text-sm font-medium tracking-wider"
-              >
-                Contact Us
-              </a>
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                className="uppercase text-white text-sm font-medium tracking-wider"
-              >
-                Career
-              </a>
-            </li>
-          </ul>
-
-          <div className="shrink-0 md:hidden text-[0px]">
-            <button type="button" onClick={() => setShowMobileMenu(true)}>
-              <img src={hamburger} role="presentation" />
-            </button>
+            </div>
+            <ul className="items-center gap-7 hidden md:flex">
+              <li>
+                <a
+                  href="#"
+                  className="uppercase text-white text-sm font-medium tracking-wider"
+                >
+                  Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="uppercase text-white text-sm font-medium tracking-wider"
+                >
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="uppercase text-white text-sm font-medium tracking-wider"
+                >
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="uppercase text-white text-sm font-medium tracking-wider"
+                >
+                  Career
+                </a>
+              </li>
+            </ul>
+            <div className="shrink-0 md:hidden text-[0px]">
+              <button type="button" onClick={() => setShowMobileMenu(true)}>
+                <img src={hamburger} role="presentation" />
+              </button>
+            </div>
           </div>
         </div>
       </nav>
@@ -101,7 +101,7 @@ export const Navbar = () => {
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="uppercase text-black py-1.5 block text-sm font-medium tracking-wider"
             >
               Services
@@ -109,7 +109,7 @@ export const Navbar = () => {
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="uppercase text-black py-1.5 block text-sm font-medium tracking-wider"
             >
               About Us
@@ -117,7 +117,7 @@ export const Navbar = () => {
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="uppercase text-black py-1.5 block text-sm font-medium tracking-wider"
             >
               Contact Us
@@ -125,7 +125,7 @@ export const Navbar = () => {
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="uppercase text-black py-1.5 block text-sm font-medium tracking-wider"
             >
               Career
