@@ -1,4 +1,4 @@
-import DefaultTheme from "tailwindcss/defaultTheme"
+import DefaultTheme from "tailwindcss/defaultTheme";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -7,6 +7,8 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Inter", ...DefaultTheme.fontFamily.sans],
+        poppins: ["Poppins", ...DefaultTheme.fontFamily.sans],
+        lato: ["Lato", ...DefaultTheme.fontFamily.sans],
       },
       colors: {
         primary: "#6B3CC9",
