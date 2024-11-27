@@ -5,7 +5,7 @@ import { Button } from "../components/Button";
 
 export const DevelopmentSection = () => {
   return (
-    <section className="max-w-screen-xl mx-auto w-full md:my-20 my-[60px] lg:px-20 md:px-10 px-5">
+    <section className="max-w-screen-xl mx-auto w-full md:my-10 my-[30px] lg:px-20 md:px-10 px-5">
       <div className="flex items-center md:flex-row flex-col">
         {/* image box */}
         <div className="shrink-0 md:p-0 pt-0 p-5">
@@ -23,7 +23,7 @@ export const DevelopmentSection = () => {
         {/* content */}
         <div>
           <div className="lg:w-[82%] w-full ml-auto md:p-5 md:pr-0 p-0 md:text-left text-center">
-            <h2 className="text-primary font-poppins text-[27px] tracking-[0.4px] leading-[33px]">
+            <h2 className="text-primary font-poppins text-[27px] tracking-[0.4px] leading-[33px] font-semibold">
               Web &amp; Mobile App Development
             </h2>
             <p className="leading-[19.36px] text-base my-5">
